@@ -25,7 +25,8 @@ namespace AsyncHomeProject {
 
 			Task.Run(() => {
 				Thread.Sleep(1500);
-				cts.Cancel();
+				Console.WriteLine(" - - - - - - - - - - - - - - - - - - ");
+                //cts.Cancel();
 			});
 			Console.ReadLine();
 		}
